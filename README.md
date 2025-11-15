@@ -39,8 +39,11 @@ python player.py
 You will be prompted to enter the following details:
 
 Server host: localhost (or 127.0.0.1 if on the same machine)
+
 Server port: 9999 (or whatever port you set)
+
 Enter room code: ABC (you can use any code)
+
 Mode: P (P = Play)
 
 ## Start Player 2
@@ -54,8 +57,11 @@ python player.py
 Enter the same details as Player 1:
 
 Server host: localhost
+
 Server port: 9999
+
 Enter room code: ABC
+
 Mode: P
 
 Once both players join the same room, the game will start automatically.
@@ -71,8 +77,11 @@ python player.py
 Enter:
 
 Server host: localhost
+
 Server port: 9999
+
 Enter room code: ABC
+
 Mode: S (S = Spectate)
 
 Spectators can watch the match in real time.
@@ -80,5 +89,7 @@ Spectators can watch the match in real time.
 ## Notes
 
 All players must use the same room code to join the same game session.
+
 Players and spectators can connect from different machines as long as they use the server’s IP address.
+
 The server must remain running the entire time for the game to function.
